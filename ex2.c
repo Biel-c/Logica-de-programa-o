@@ -23,12 +23,18 @@ int main()
     scanf("%f", &ret): 
     
     sldp = sldp + ret; 
-    printf("\n Saldo parcial:$%2.f",sldp): 
+    printf("\n Saldo parcial:$%2.f",sldp); 
     printf("\n 3a retirada:$ "); 
     scanf("%f", &ret); 
     
     sldp = sldp + ret; 
-    printf("\n Saldo final $%2.f", sldp): 
-    
+    printf("\n Saldo final $%2.f", sldp); 
+
+    if sldp>1000{
+      printf("Parabens voce e economico")
+        }
+    else{
+        printf("Voce esta gastando muito")
+          }
     return 0;
   }
